@@ -1,0 +1,141 @@
+.contenedor3{
+	display: grid;
+	gap: 10px;
+	grid-template-columns: repeat(3, auto);
+	grid-template-rows: repeat(1, auto);
+	grid-template-areas:
+		'implantes			ortodoncia   	protesis';
+    .implantes{
+        color: #000000;
+        background-color: #d2d1d1;
+        border-radius: 5px;
+        padding: 1rem;
+        margin: 10px;
+        width: 465px;
+        height: 450px;
+        transition: all 1s;
+        &:hover{
+            transform: scale(1.08, 1.08);}}
+    .ortodoncia2{
+        color: #000000;
+        background-color: #d2d1d1;
+        border-radius: 5px;
+        padding: 1rem;
+        margin: 10px;
+        width: 465px;
+        height: 450px;
+        transition: all 1s;
+        &:hover{
+            transform: scale(1.08, 1.08);}
+    }
+    .protesis{
+        color: #000000;
+        background-color: rgb(210, 209, 209);
+        border-radius: 5px;
+        padding: 1rem;
+        margin: 10px;
+        width: 465px;
+        height: 450px;
+        transition: all 1s;
+        &:hover{
+            transform: scale(1.08, 1.08);}}
+}
+@media (max-width: 1200px) {
+    body{
+       font-size: 14px;}
+    .contenedor3 {
+       display: grid;
+       gap: 10px;
+       grid-template-columns: repeat(2, auto);
+       grid-template-rows: repeat(2, auto);
+       grid-template-areas:
+          'implantes ortodoncia2'	
+          'protesis protesis';}
+    .tlf, .email, .direcc{
+             font-size: 15px;}   
+ }
+ @media (max-width: 768px) {
+    body{
+       background-color: #f0ebeb;
+       background-image: url(../img/fondo-600.jpg)}
+    .contenedor3 {
+       display: grid;
+       gap: 10px;
+       grid-template-columns: repeat(1, auto);
+       grid-template-rows: repeat(3, auto);
+       grid-template-areas:
+          'implantes'
+          'ortodoncia2'	
+          'protesis';}
+    .implantes{
+       color: #000000;
+       background-color: #d2d1d1;
+       border-radius: 5px;
+       padding: 1rem;
+       margin: 10px;
+       width: 40em;
+       height: 28em;}
+    .ortodoncia2{
+       color: #000000;
+       background-color: #d2d1d1;
+       border-radius: 5px;
+       padding: 1rem;
+       margin: 10px;
+       width: 40em;
+       height: 28em;}
+    .protesis{
+       color: #000000;
+       background-color: #d2d1d1;
+       border-radius: 5px;
+       padding: 1rem;
+       margin: 10px;
+       width: 40em;
+       height: 28em;}
+    .tlf, .email, .direcc{
+       font-size: 14px;} 
+ }    
+ @media (max-width: 576px) {
+    body{
+       background-color: #f0ebeb;
+       background-image: url(../img/fondo-480.jpg);}
+    .contenedor3 {
+       display: grid;
+       gap: 10px;
+       grid-template-columns: repeat(1, auto);
+       grid-template-rows: repeat(3, auto);
+       grid-template-areas:
+          'implantes'
+          'ortodoncia2'	
+          'protesis';
+    }
+    .implantes{
+       color: #000000;
+       background-color: #d2d1d1;
+       border-radius: 5px;
+       padding: 1rem;
+       margin: 10px;
+       width: 35em;
+       height: 25em;}
+         
+    .ortodoncia2{
+       color: #000000;
+       background-color: #d2d1d1;
+       border-radius: 5px;
+       padding: 1rem;
+       margin: 10px;
+       width: 35em;
+       height: 25em;}
+    .protesis{
+       color: #000000;
+       background-color: rgb(210, 209, 209);
+       border-radius: 5px;
+       padding: 1rem;
+       margin: 10px;
+       width: 35em;
+       height: 25em;}
+    .hove{
+       width: 450px;
+    }
+    .tlf, .email, .direcc{
+       font-size: 12px;}
+    }

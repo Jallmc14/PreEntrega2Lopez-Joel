@@ -1,0 +1,27 @@
+.formu{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   gap: 30px;
+   .formulario{
+    width: 500px;
+    margin:20px auto;
+    border: solid #808080 2px;
+    padding: 1rem;   }
+}
+.imagRh{
+    width: 500px;
+    margin:20px auto;
+    padding: 2rem;}
+
+@media (max-width: 768px){
+    .formu{
+        display: grid;
+        align-items: center;
+        gap: 5px;
+        grid-template-columns: repeat(1, auto);
+        grid-template-rows: repeat(3, auto);
+        grid-template-areas:
+            'contac'
+            'form1'	
+            'imagRh';}}

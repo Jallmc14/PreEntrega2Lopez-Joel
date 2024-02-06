@@ -1,0 +1,136 @@
+
+main{
+    display: flex;
+    flex-grow: 3;
+    h1, h2{
+        text-align: center;
+        font-family: 'Englebert', cursive;
+        font-size: 2.5rem;
+        color: #3a2e2e;
+        &:hover{
+            color:whitesmoke;}}    
+        .nosotros{
+            color: #000000;
+            background-color: #d2d1d1;
+            border-radius: 5px;
+            padding: 1rem;
+            margin: 10px;
+            width: 480px;
+            height: 570px;}
+        .odontologia{
+            color: #000000;
+            background-color: #d2d1d1;
+            border-radius: 5px;
+            padding: 1rem;
+            margin: 10px;
+            width: 480px;
+            height: 530px;}
+        .ortodoncia{
+            color: #000000;
+            background-color: #d2d1d1;
+            border-radius: 5px;
+            padding: 1rem;
+            margin: 10px;
+            width: 480px;
+            height: 460px;}
+    }
+    @media (max-width: 1200px) {
+        body{
+           font-size: 14px;
+        }
+        .contenedor {
+           display: grid;
+           gap: 10px;
+           grid-template-columns: repeat(2, auto);
+           grid-template-rows: repeat(2, auto);
+           grid-template-areas:
+              'nosotros odontologia'	
+              'ortodoncia ortodoncia';}
+        .tlf, .email, .direcc{
+                 font-size: 15px;}   
+     }
+     @media (max-width: 768px) {
+        body{
+           background-color: #f0ebeb;
+           background-image: url(../img/fondo-600.jpg)}
+        .contenedor {
+           display: grid;
+           gap: 10px;
+           grid-template-columns: repeat(1, auto);
+           grid-template-rows: repeat(3, auto);
+           grid-template-areas:
+              'nosotros'
+              'odontologia'	
+              'ortodoncia';}
+        .nosotros{
+           color: #000000;
+           background-color: #d2d1d1;
+           border-radius: 5px;
+           padding: 1rem;
+           margin: 10px;
+           width: 50em;
+           height: 37em;}
+        .odontologia{
+           color: #000000;
+           background-color: #d2d1d1;
+           border-radius: 5px;
+           padding: 1rem;
+           margin: 10px;
+           width: 50em;
+           height: 35em;}
+        .ortodoncia{
+           color: #000000;
+           background-color: #d2d1d1;
+           border-radius: 5px;
+           padding: 1rem;
+           margin: 10px;
+           width: 50em;
+           height: 30em;}
+        .tlf, .email, .direcc{
+           font-size: 14px;}
+     }
+        
+     @media (max-width: 576px) {
+        body{
+           background-color: #f0ebeb;
+           background-image: url(../img/fondo-480.jpg);}
+        .contenedor {
+           display: grid;
+           gap: 10px;
+           grid-template-columns: repeat(1, auto);
+           grid-template-rows: repeat(3, auto);
+           grid-template-areas:
+              'nosotros'
+              'odontologia'	
+              'ortodoncia';
+        }
+        .nosotros{
+           color: #000000;
+           background-color: #d2d1d1;
+           border-radius: 5px;
+           padding: 1rem;
+           margin: 10px;
+           width: 36em;
+           height: 37em;}
+             
+        .odontologia{
+           color: #000000;
+           background-color: #d2d1d1;
+           border-radius: 5px;
+           padding: 1rem;
+           margin: 10px;
+           width: 36em;
+           height: 35em;}
+        .ortodoncia{
+           color: #000000;
+           background-color: #d2d1d1;
+           border-radius: 5px;
+           padding: 1rem;
+           margin: 10px;
+           width: 36em;
+           height: 30em;}
+        .imgMovil{
+           width: 32em;} 
+        .tlf, .email, .direcc{
+           font-size: 12px;}
+     }

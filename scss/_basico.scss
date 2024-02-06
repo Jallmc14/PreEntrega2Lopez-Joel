@@ -1,0 +1,70 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+body {
+    background-color: #f0ebeb;
+    background-image: url(../img/fondo-768.jpg);
+    font-family: 'Heebo', sans-serif;
+    display: flex;
+    height: 500px;
+    flex-direction: column;
+    padding: 1rem;}
+header{
+    background-color: #808080;
+    background-image: url(../img/fondo\ header.jpg);
+    border-radius: 5px;
+    flex-grow:1;
+    padding: 1rem;
+    margin: 10px;
+    .estiloPropio{
+        font-family: 'Englebert', cursive;
+        color: #3a2e2e;
+        text-align: center;
+        text-decoration: none;
+        font-size: 2.5rem;
+        transition: all 3s;animation-name: texto;
+        animation-iteration-count: infinite;
+        animation-duration: 3s;
+        animation-delay: 0s;
+        margin: 20px auto;}
+            @keyframes texto{
+                 0%{
+                     opacity: 0.5;
+                     color: #00aaff46;}
+                50%{
+                    opacity: 1;}
+                100%{
+                    opacity: 0.5;}
+         }
+    nav{
+        background-color: #ffffffd5;
+        border-radius: 5px;
+        flex-grow:1;
+        padding: 2rem;
+        margin: 10px;
+        .logo{
+            width: 70px;}
+            a{
+                &:hover{
+                    color: #000000;
+                    background-color: #808080;
+                    border-radius: 15px;}}
+            }        
+        }
+footer{
+    background: linear-gradient(#ffffffd5, #ffffff83, #ffffffd5);
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-grow:1;
+    padding: 1rem;
+    margin: 10px;
+    .tlf, .email{
+        font-size: 19px;
+        text-decoration: none;
+        &:hover{
+            color:#000000;}}
+    .direcc{
+        font-size: 19px;}}

@@ -1,0 +1,38 @@
+.contenedor2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    .texto{
+        color: #000000;
+        background-color: #d2d1d1;
+        border-radius: 5px;
+        padding: 1rem;
+        margin: 10px;
+        width: 815px;
+        height: 125px;}
+}
+@media (max-width: 576px) {
+    .texto{
+       border-radius: 5px;
+       padding: 0.5rem;
+       margin: 5px;
+       width: 36em;
+       height: 11em;
+    }
+    .carroImag{
+       border-radius: 5px;
+       padding: 0.5rem;
+       margin: 5px;
+       width: 36em;
+       height: 30em;
+    }
+    .video1{
+       border-radius: 5px;
+       padding: 0.5rem;
+       margin: 5px;;
+       width: 36em;
+       height: 30em;
+    }
+ }
